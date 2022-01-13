@@ -1,0 +1,33 @@
+
+html {
+	position: relative;
+    min-height: 100%;
+}
+body {
+	font-size: 16px;
+}
+section {
+	padding-left: 20px;
+	display:block;
+}
+
+.navbar-inverse {
+	margin-bottom: 30px;
+}
+
+.block{
+	background-color: #5D4037;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px 20px;
+	color: white;
+	word-wrap: break-word;
+}
+.alert {
+	word-wrap: break-word;
+}
+
+
+input {
+	display: flex;
+}

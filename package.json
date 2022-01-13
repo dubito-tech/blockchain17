@@ -1,0 +1,38 @@
+{
+  "name": "node-clean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+  "author": "Anusidh Pavamontri",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apavamontri/nodejs-clean.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "mocha": "^3.4.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "crypto-js": "^4.1.1",
+    "express": "^4.15.2",
+    "firebase": "^9.6.1",
+    "jsonwebtoken": "^7.4.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "mongoose": "^6.1.1",
+    "uuid": "^3.0.1"
+  }
+}
